@@ -15,22 +15,20 @@ Zbiór danych użyty w projekcie to ["Simple hand-drawn and digitized images"](h
 
 ## Instalacja
 
-Aby uruchomić projekt lokalnie, postępuj zgodnie z poniższymi krokami.
+Aby uruchomić projekt lokalnie, postępuj zgodnie z poniższymi krokami:
 
-**1. Klonowanie repozytorium **
+**1. Klonowanie repozytorium**
 
 ```bash
-git clone <adres-repozytorium>
+git clone https://github.com/gasiciel/hand-drawn-images-cv
 cd hand-drawn-images-cv
 ```
 
 **2. Stworzenie i aktywacja środowiska wirtualnego**
 
-Zalecane jest użycie środowiska wirtualnego, aby odizolować zależności projektu.
 
 ```bash
 python3 -m venv venv
-
 source venv/bin/activate
 ```
 
@@ -44,7 +42,7 @@ pip install -r requirements.txt
 
 ## Uruchomienie
 
-Projekt składa się z dwóch głównych części: notebooka analitycznego oraz aplikacji webowej.
+Projekt składa się z dwóch głównych części: notebooka oraz aplikacji webowej.
 
 ### 1. Analiza i trening w Jupyter Notebook
 
@@ -66,4 +64,4 @@ Aby ją uruchomić, wykonaj w terminalu polecenie:
 python app.py
 ```
 
-Następnie otwórz w przeglądarce podany w terminalu adres (zazwyczaj `http://127.0.0.1:7860`).
+Następnie otwórz w przeglądarce podany w terminalu adres.
