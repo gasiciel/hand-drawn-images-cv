@@ -25,7 +25,7 @@ Aby uruchomić projekt lokalnie, postępuj zgodnie z poniższymi krokami:
 **1. Klonowanie repozytorium**
 
 ```bash
-git clone https://github.com/gasiciel/hand-drawn-images-cv
+git clone https://github.com/gasiciel/hand-digit-images-cv
 cd hand-drawn-images-cv
 ```
 
